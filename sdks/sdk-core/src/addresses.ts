@@ -93,6 +93,14 @@ const DEFAULT_ADDRESSES: ChainAddresses = {
   v3MigratorAddress: '0xA5644E29708357803b5A882D272c41cC0dF92B34',
   nonfungiblePositionManagerAddress: '0xC36442b4a4522E871399CD717aBDD847Ab11FE88',
 }
+const HYPEREVM_ADDRESSES: ChainAddresses = {
+  multicallAddress: '',
+  v3CoreFactoryAddress: '0x835405cF1F9ed0A0b4F8a9831a41A15f5CC8E9D5',
+  nonfungiblePositionManagerAddress: '0x6D7202a012DEf3c8637f90bBEE0811ecF365c365',
+  quoterAddress: '0x0A352A00E6cA904d69c12A98DaFD714B2bb47912',
+  swapRouter02Address: '0x3fE776da036864826a952e202D192D9DF0D97258',
+}
+
 const MAINNET_ADDRESSES: ChainAddresses = {
   ...DEFAULT_ADDRESSES,
   mixedRouteQuoterV1Address: '0x84E44095eeBfEC7793Cd7d5b57B7e401D7f1cA2E',
@@ -418,6 +426,7 @@ const SONEIUM_ADDRESSES: ChainAddresses = {
 }
 
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {
+  [ChainId.HYPEREVM]: HYPEREVM_ADDRESSES,
   [ChainId.MAINNET]: MAINNET_ADDRESSES,
   [ChainId.OPTIMISM]: OPTIMISM_ADDRESSES,
   [ChainId.ARBITRUM_ONE]: ARBITRUM_ONE_ADDRESSES,

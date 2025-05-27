@@ -1,4 +1,5 @@
 export enum ChainId {
+  HYPEREVM = 999,
   MAINNET = 1,
   GOERLI = 5,
   SEPOLIA = 11155111,
@@ -32,6 +33,7 @@ export enum ChainId {
 }
 
 export const SUPPORTED_CHAINS = [
+  ChainId.HYPEREVM,
   ChainId.MAINNET,
   ChainId.OPTIMISM,
   ChainId.OPTIMISM_GOERLI,
