@@ -94,11 +94,11 @@ const DEFAULT_ADDRESSES: ChainAddresses = {
   nonfungiblePositionManagerAddress: '0xC36442b4a4522E871399CD717aBDD847Ab11FE88',
 }
 const HYPEREVM_ADDRESSES: ChainAddresses = {
-  multicallAddress: '',
-  v3CoreFactoryAddress: '0x835405cF1F9ed0A0b4F8a9831a41A15f5CC8E9D5',
-  nonfungiblePositionManagerAddress: '0x6D7202a012DEf3c8637f90bBEE0811ecF365c365',
-  quoterAddress: '0x0A352A00E6cA904d69c12A98DaFD714B2bb47912',
-  swapRouter02Address: '0x3fE776da036864826a952e202D192D9DF0D97258',
+  multicallAddress: '0xcA11bde05977b3631167028862bE2a173976CA11',
+  v3CoreFactoryAddress: '0xCD49ABb32845B508F0765598732135D27B5cb269',
+  nonfungiblePositionManagerAddress: '0x3013d8Bb19391aCa8e46f38B1f106b3f81F7ed75',
+  quoterAddress: '0x009287288691da253F8178d63a283058cB828202',
+  swapRouter02Address: '0x9A1e9f5074B6efCb1F885580e08Ae59cA6c76535',
 }
 
 const MAINNET_ADDRESSES: ChainAddresses = {
